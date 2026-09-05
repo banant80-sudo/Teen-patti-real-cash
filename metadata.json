@@ -1,0 +1,6 @@
+{
+  "name": "Teen Patti",
+  "description": "Teen Patti card game featuring automated 5% board commission collection into Admin wallet, manual admin payment verification for deposits, anti-fraud withdrawal approval with UTR transfer, and dedicated customer complaint ticket resolution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

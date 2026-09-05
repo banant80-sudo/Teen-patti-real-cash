@@ -1,0 +1,96 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left Card (tilted) -->
+    <group
+        android:pivotX="45"
+        android:pivotY="65"
+        android:rotation="-18">
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M33,30 h24 a4,4 0 0 1 4,4 v34 a4,4 0 0 1 -4,4 h-24 a4,4 0 0 1 -4,-4 v-34 a4,4 0 0 1 4,-4 z" />
+        <path
+            android:fillColor="#C62828"
+            android:pathData="M45,44 c0,0 -4,-5 -6,-2 c-2,3 2,6 6,9 c4,-3 8,-6 6,-9 c-2,-3 -6,2 -6,2 z" />
+        <!-- Card border -->
+        <path
+            android:strokeColor="#B0BEC5"
+            android:strokeWidth="1"
+            android:pathData="M33,30 h24 a4,4 0 0 1 4,4 v34 a4,4 0 0 1 -4,4 h-24 a4,4 0 0 1 -4,-4 v-34 a4,4 0 0 1 4,-4 z" />
+    </group>
+
+    <!-- Right Card (tilted) -->
+    <group
+        android:pivotX="63"
+        android:pivotY="65"
+        android:rotation="18">
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M51,30 h24 a4,4 0 0 1 4,4 v34 a4,4 0 0 1 -4,4 h-24 a4,4 0 0 1 -4,-4 v-34 a4,4 0 0 1 4,-4 z" />
+        <!-- Diamond symbol -->
+        <path
+            android:fillColor="#D32F2F"
+            android:pathData="M63,40 L68,47 L63,54 L58,47 Z" />
+        <path
+            android:strokeColor="#B0BEC5"
+            android:strokeWidth="1"
+            android:pathData="M51,30 h24 a4,4 0 0 1 4,4 v34 a4,4 0 0 1 -4,4 h-24 a4,4 0 0 1 -4,-4 v-34 a4,4 0 0 1 4,-4 z" />
+    </group>
+
+    <!-- Center Card (Ace of Spades - Gold framed) -->
+    <group>
+        <!-- Shadow -->
+        <path
+            android:fillColor="#33000000"
+            android:pathData="M43,26 h26 a4,4 0 0 1 4,4 v38 a4,4 0 0 1 -4,4 h-26 a4,4 0 0 1 -4,-4 v-38 a4,4 0 0 1 4,-4 z" />
+        <!-- Card Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M41,24 h26 a4,4 0 0 1 4,4 v38 a4,4 0 0 1 -4,4 h-26 a4,4 0 0 1 -4,-4 v-38 a4,4 0 0 1 4,-4 z" />
+        <!-- Card Golden Rim -->
+        <path
+            android:strokeColor="#D4AF37"
+            android:strokeWidth="1.5"
+            android:pathData="M41,24 h26 a4,4 0 0 1 4,4 v38 a4,4 0 0 1 -4,4 h-26 a4,4 0 0 1 -4,-4 v-38 a4,4 0 0 1 4,-4 z" />
+
+        <!-- Ace of Spades Symbol in center -->
+        <path
+            android:fillColor="#212121"
+            android:pathData="M54,36 C52,39 47,43 47,47 C47,50 49,52 52,52 C53.5,52 54,51 54,51 C54,51 54.5,52 56,52 C59,52 61,50 61,47 C61,43 56,39 54,36 Z" />
+        <path
+            android:fillColor="#212121"
+            android:pathData="M53,49 L55,49 L56,55 L52,55 Z" />
+
+        <!-- Letter 'A' -->
+        <path
+            android:fillColor="#D4AF37"
+            android:pathData="M43,27 L45.5,27 L44.25,25 Z" />
+    </group>
+
+    <!-- Golden Casino Chips Stack at bottom center -->
+    <!-- Bottom chip -->
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M34,74 C34,70 43,67 54,67 C65,67 74,70 74,74 C74,78 65,81 54,81 C43,81 34,78 34,74 Z" />
+    <!-- Middle chip -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M32,71 C32,67 42,64 54,64 C66,64 76,67 76,71 C76,75 66,78 54,78 C42,78 32,75 32,71 Z" />
+    <!-- Top chip (Golden) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M34,67 C34,63 43,60 54,60 C65,60 74,63 74,67 C74,71 65,74 54,74 C43,74 34,71 34,67 Z" />
+    <!-- Chip inner ring -->
+    <path
+        android:strokeColor="#FFF9C4"
+        android:strokeWidth="1"
+        android:pathData="M38,67 C38,64 45,62 54,62 C63,62 70,64 70,67 C70,70 63,72 54,72 C45,72 38,70 38,67 Z" />
+    <!-- Crown / Star in Chip -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M54,64 L55.5,66.5 L58,67 L56,68.5 L56.5,71 L54,69.5 L51.5,71 L52,68.5 L50,67 L52.5,66.5 Z" />
+</vector>
